@@ -1,0 +1,29 @@
+body {
+	background-image: url("../images/topography.svg"), linear-gradient(110deg, #f93d66, #6d47d9);
+	color: #000;
+}
+
+a {
+	color: #000;
+}
+
+#menuTab .nav-item a {
+	width: 250px;
+}
+
+#menuTab .nav-item a:hover {
+	color: #000;
+}
+
+#menuTab .nav-item a.active {
+	color: #000;
+	background-color: #ffc107;
+}
+
+.card-img-top {
+	height: 250px;
+}
+
+#menuTabContent > div.active {
+	display: flex;
+}
